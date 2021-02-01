@@ -12,12 +12,17 @@ const Login = () => {
   const [data, setData] = useState({ username: "", password: "" });
   const [errors, setErrors] = useState({});
   const [loader, setLoader] = useState(false);
+  const [loading, setLoading] = useState(true);
   const { setAuthenticated, user } = useAuth();
 
   const handleChange = ({ currentTarget: input }) => {
     const userInput = { ...data };
     userInput[input.name] = input.value;
     setData(userInput);
+
+    if (userInput) {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -26,19 +31,15 @@ const Login = () => {
     try {
       setLoader(true);
       const { username, password } = data;
-      await auth.login(username, password);
-      setAuthenticated(true); //useAuth untuk protect-route
-      localStorage.setItem("navbarInfo", username); // bona-navbar
-      
+
       if (username.length && password.length > 0) {
         await auth.login(username, password);
         setAuthenticated(true); //useAuth untuk protect-route
         localStorage.setItem("navbarInfo", username); // bona-navbar
       } else {
-//         setAuthenticated(false);
+        // setAuthenticated(false);
         setLoader(false);
-      };
-
+      }
     } catch (ex) {
       if (ex.response && ex.response.status >= 400) {
         const errors = { ...errors };
@@ -113,7 +114,7 @@ const Login = () => {
                 }}
                 disabled={loader}
               >
-                {loader ? <Loader /> : "Masuk"}
+                {loader ? loading ? "Masuk" : <Loader /> : "Masuk"}
               </button>
             </form>
           </div>
