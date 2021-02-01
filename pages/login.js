@@ -34,6 +34,7 @@ const Login = () => {
         const errors = { ...errors };
         errors.username = ex.response.data.message;
         setErrors(errors);
+        setLoader(false);
       }
     }
   };
