@@ -29,6 +29,16 @@ const Login = () => {
       await auth.login(username, password);
       setAuthenticated(true); //useAuth untuk protect-route
       localStorage.setItem("navbarInfo", username); // bona-navbar
+      
+      if (username.length && password.length > 0) {
+        await auth.login(username, password);
+        setAuthenticated(true); //useAuth untuk protect-route
+        localStorage.setItem("navbarInfo", username); // bona-navbar
+      } else {
+        setAuthenticated(false);
+        setLoader(false);
+      };
+
     } catch (ex) {
       if (ex.response && ex.response.status >= 400) {
         const errors = { ...errors };
