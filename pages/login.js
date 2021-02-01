@@ -35,7 +35,7 @@ const Login = () => {
         setAuthenticated(true); //useAuth untuk protect-route
         localStorage.setItem("navbarInfo", username); // bona-navbar
       } else {
-        setAuthenticated(false);
+//         setAuthenticated(false);
         setLoader(false);
       };
 
