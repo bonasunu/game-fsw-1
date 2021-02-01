@@ -1,0 +1,52 @@
+/* :root {
+  --yellow: #f9b91e;
+  --yellow-hover: #e1a616;
+  --rose: #ef709d;
+  --rose-hover: #c14c75;
+  --violet: #a9384b;
+  --violet-hover: #702632;
+  --binar: #733572;
+} */
+.h1Color {
+  font-size: 5em;
+  font-weight: bold;
+  color: #733572;
+}
+
+.h3Color,
+.h3Color {
+  color: #733572;
+}
+
+.btnLogIn {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9b91e;
+  color:white;
+}
+
+.btnRegister {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ef709d;
+  color:white;
+}
+
+.btnLeaderboards {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #a9384b;
+  color:white;
+}
+
+.containerLanding {
+  height: 100vh;
+  width: 100vw;
+}
+
+.mt10 {
+  margin-top: 10%;
+}

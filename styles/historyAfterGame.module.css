@@ -1,0 +1,28 @@
+.fontSizeH1 {
+    font-size: 48px;
+    color: #733572;
+    font-weight: 800;
+  }
+  .startButtonHistory {
+    background-color: white;
+    color: #733572;
+    border-color: #733572;
+  }
+  .startButtonHistory:hover {
+    background-color: #733572;
+    color: white;
+    border-color: #733572;
+  }
+  .centerBody {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .thColor {
+    background-color: #733572;
+    color: white;
+  }
+  

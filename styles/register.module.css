@@ -1,0 +1,75 @@
+
+.containerAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #733572;
+    padding-bottom: 50px;
+}
+
+.greyDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.greyContainer {
+    min-width: 360;
+    padding: 40px;
+    background-color: #EEF2F6;
+    border-radius: 8px;
+}
+.input {
+    border-radius: 12px;
+}
+  
+.formGroup {
+    border-radius: 12px;
+}
+  
+.btn {
+    background-color: #f9b91e;
+    border-color: #f9b91e;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.btnSize {
+    width: 140px;
+    height: 35px;
+    margin-bottom: 3px;
+}
+  
+.h3 {
+    font-weight: 700;
+    color: #733572;
+}
+  
+.authRedirect {
+    color: #ffffff;
+    font-size: 0.875rem;
+    padding-top: 20px;
+}
+  
+.authLogo {
+  max-width: 140px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.authLinkCustom {
+    color: #f9b91e;
+    display: inline-block;
+    padding: 0;
+}
+
+.authRedirect {
+    color: #ffffff;
+    font-size: 0.875rem;
+    padding-top: 20px;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 10rem;
+    padding: 20;
+  }
+
+  .cardLoop {
+    border-radius: 15px;
+    background-color: #b8c5d0;
+  }
+
+  .cardButton {
+    position: relative;
+    /* left: 40%; */
+  }
+
+  .cardTitle {
+    align-content: start;
+    color: #7c858d;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .cardLoop {
+      max-width: 900px;
+    }
+  }

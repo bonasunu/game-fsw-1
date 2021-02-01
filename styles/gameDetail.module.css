@@ -1,0 +1,106 @@
+.containerGameDetail {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .containerGameDetail {
+    max-width: 900px;
+    margin-top: 50px;
+  }
+  .idGamePicture {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .gamePicture {
+    height: 280px;
+  }
+}
+.detailContainer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.gameCol {
+  padding: 10px 20px;
+}
+.gamePicture {
+  width: 100%;
+  min-height: 250px;
+  background-color: #b8c5d0;
+  border-radius: 3px;
+}
+
+/* .gameVideo {
+  width: inherit;
+  height: inherit;
+} */
+
+.gameTitle {
+  font-weight: 700;
+  color: #455d6d;
+}
+.gameGenres {
+  margin-bottom: 10px;
+}
+.gameDescription {
+  color: #7f919f;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.label {
+  font-size: 0.75rem;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 8px;
+}
+.label.Action {
+  background-color: #ef709d;
+}
+.label.Arcade {
+  background-color: #733572;
+}
+.buttonPlay {
+  background-color: #f9b91e;
+  padding: 8px 20px;
+  border-radius: 25px;
+  min-width: 90px;
+  color: #ffffff;
+  border: 1px solid #f9b91e;
+  font-weight: 600;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.buttonPlay:hover {
+  background-color: #e1a616;
+}
+
+.navSection {
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.navButton {
+  padding: 10px 20px;
+  border: 1px solid #eef2f6;
+  box-sizing: border-box;
+  border-radius: 12px;
+  color: #8a5289;
+}
+.navButton:hover {
+  background-color: #eef2f6;
+  cursor: pointer;
+}
+
+.navButtonRight {
+  text-align: right;
+}
+
+.labelButton {
+  font-size: 0.875rem;
+}
+.labelName {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #733572;
+}

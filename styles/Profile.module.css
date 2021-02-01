@@ -1,0 +1,91 @@
+.bodyCardRadius {
+  border-radius: 8px;
+}
+.bodyCardWidth {
+  max-width: 100vw;
+}
+.centerBinar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photoProfile {
+  max-width: 100px;
+  max-height: 110px;
+}
+
+.square {
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+  background-color: #b8c5d0;
+}
+.bodyCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  max-height: 20%;
+  margin: auto;
+  margin-top: 6%;
+}
+.bodyCenterImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.backgroundWin {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.backgroundLose {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+.textUnderline {
+  text-decoration: underline;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.thColor {
+  background-color: #733572;
+  color: white;
+}
+.bodyCenterImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.btnEdit {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color:#733572;
+  border-color:#733572 ;
+}
+.btnEdit:hover {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #733572;
+  color: white;
+  border-color:#733572 ;
+}
+.btnEdit:active {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #733572;
+  color: white;
+  border-color:#733572 ;
+}

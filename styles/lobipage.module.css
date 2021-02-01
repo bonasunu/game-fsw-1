@@ -1,0 +1,48 @@
+.imgLogo {
+  width: 12%;
+  height: 5%;
+}
+
+.fontsizeh1 {
+  font-size: 48px;
+  color: #733572;
+  font-weight: 800;
+}
+.startButton {
+  background-color: white;
+  color: #f9b91e;
+  border-color: #f9b91e;
+}
+.startButton:hover {
+  background-color: #f9b91e;
+  color: white;
+  border-color: #f9b91e;
+}
+.startbuttonhistory {
+  background-color: white;
+  color: #733572;
+  border-color: #733572;
+}
+.startbuttonhistory:hover {
+  background-color: #733572;
+  color: white;
+  border-color: #733572;
+}
+
+.centerBody {
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textExit {
+  color: #733572;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mt10 {
+  margin-top: 10%;
+}

@@ -1,0 +1,40 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: var(--binar);
+  padding-bottom: 50px;
+}
+
+.authLogo {
+  max-width: 140px;
+  padding-bottom: 30px;
+}
+
+.authCard {
+  min-width: 360px;
+  padding: 40px;
+  background-color: #eef2f6;
+  border-radius: 12px;
+  box-shadow: 1px 11px 18px rgba(0, 0, 0, 0.1);
+}
+
+.authRedirect {
+  color: #ffffff;
+  font-size: 0.875rem;
+  padding-top: 20px;
+}
+
+.authLinkCustom {
+  color: var(--yellow);
+  display: inline-block;
+  padding: 0;
+}
+
+.authLinkCustom:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
