@@ -35,7 +35,7 @@ export const editprofileActions = (jwt, data) => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-    alert(error.message)
+//     alert(error.message)
   }
 
 }
